@@ -1,0 +1,14 @@
+title: "나의 영어 공부 노트"
+description: "조금씩 배우고, 내 말로 연습하는 영어"
+lang: ko
+# 저장소 이름이 english-study이면 아래 값 사용. 다른 이름이면 함께 변경하세요.
+# 사용자 사이트 USERNAME.github.io 저장소라면 빈 문자열 "" 사용.
+baseurl: "/english-study"
+markdown: kramdown
+kramdown:
+  input: GFM
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
